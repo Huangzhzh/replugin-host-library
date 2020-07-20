@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1998932c-3c68-4056-862f-879f56f83d82" name="Default Changelist" comment="" />
+    <list default="true" id="1998932c-3c68-4056-862f-879f56f83d82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/compile_only_not_namespaced_r_class_jar/release/generateReleaseRFile/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/compile_only_not_namespaced_r_class_jar/release/generateReleaseRFile/R.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/qihoo360/loader2/PmBase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/qihoo360/loader2/PmBase$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/qihoo360/loader2/PmBase$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/qihoo360/loader2/PmBase$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/qihoo360/loader2/PmBase$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/qihoo360/loader2/PmBase$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/qihoo360/loader2/PmBase$DynamicClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/qihoo360/loader2/PmBase$DynamicClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/qihoo360/loader2/PmBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/com/qihoo360/loader2/PmBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/qihoo360/loader2/PmBase$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/qihoo360/loader2/PmBase$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/qihoo360/loader2/PmBase$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/qihoo360/loader2/PmBase$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/qihoo360/loader2/PmBase$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/qihoo360/loader2/PmBase$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/qihoo360/loader2/PmBase$DynamicClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/qihoo360/loader2/PmBase$DynamicClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/qihoo360/loader2/PmBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes/com/qihoo360/loader2/PmBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/packaged-classes/release/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/intermediates/packaged-classes/release/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/ivy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/ivy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/libs/replugin-host-lib-2.3.3.2-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/outputs/aar/replugin-host-lib-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/outputs/aar/replugin-host-lib-debug.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/outputs/aar/replugin-host-lib-release.aar" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/outputs/aar/replugin-host-lib-release.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/build/poms/pom-default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/build/poms/pom-default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PmBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PmBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/com/qihoo360/replugin/replugin-host-lib/maven-metadata.xml" beforeDir="false" afterPath="$PROJECT_DIR$/repository/com/qihoo360/replugin/replugin-host-lib/maven-metadata.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/com/qihoo360/replugin/replugin-host-lib/maven-metadata.xml.md5" beforeDir="false" afterPath="$PROJECT_DIR$/repository/com/qihoo360/replugin/replugin-host-lib/maven-metadata.xml.md5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/repository/com/qihoo360/replugin/replugin-host-lib/maven-metadata.xml.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/repository/com/qihoo360/replugin/replugin-host-lib/maven-metadata.xml.sha1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rp-config.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/rp-config.gradle" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +53,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="SJQ4C18C10000362" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -31,17 +74,6 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="replugin-host-library" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="replugin-host-library" type="f1a62948:ProjectNode" />
-                <item name="replugin-host-library" type="2d1252cf:ModuleNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="replugin-host-library" type="f1a62948:ProjectNode" />
-                <item name="replugin-host-library" type="2d1252cf:ModuleNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -78,53 +110,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PluginContext.java">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1121">
-              <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+            <state relative-caret-position="741">
+              <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#602#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
+        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/RePlugin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#602#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="997" column="31" selection-start-line="997" selection-start-column="31" selection-end-line="997" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/RePluginApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/i/Factory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="428" selection-start-line="428" selection-end-line="428" />
-              <folding>
-                <element signature="e#11482#11483#0" expanded="true" />
-                <element signature="e#11539#11540#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/RePluginEventCallbacks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1330">
-              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/replugin-host-lib/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="722">
-              <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+            <state relative-caret-position="224">
+              <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
               <folding>
                 <element signature="e#0#602#0" expanded="true" />
               </folding>
@@ -133,50 +152,72 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/Loader.java">
+        <entry file="file://$PROJECT_DIR$/rp-config.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1824">
-              <caret line="167" column="25" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
+            <state relative-caret-position="266">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/model/PluginInfo.java">
+        <entry file="file://$PROJECT_DIR$/rp-publish.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11343">
-              <caret line="691" column="22" selection-start-line="691" selection-start-column="22" selection-end-line="691" selection-end-column="22" />
+            <state relative-caret-position="-1805">
+              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PmBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="689" selection-start-line="689" selection-end-line="689" />
               <folding>
-                <element signature="e#18329#18330#0" expanded="true" />
-                <element signature="e#18369#18370#0" expanded="true" />
+                <element signature="e#37241#37242#0" expanded="true" />
+                <element signature="e#37344#37345#0" expanded="true" />
+                <element signature="e#37432#37433#0" expanded="true" />
+                <element signature="e#38242#38243#0" expanded="true" />
+                <element signature="e#45073#45074#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PluginLibraryInternalProxy.java">
+        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/base/IPC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6688">
-              <caret line="399" column="26" selection-start-line="399" selection-start-column="26" selection-end-line="399" selection-end-column="26" />
+            <state relative-caret-position="278">
+              <caret line="129" column="37" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="37" />
+              <folding>
+                <element signature="e#3669#3670#0" expanded="true" />
+                <element signature="e#3712#3713#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/component/ComponentList.java">
+        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/mobilesafe/api/IPC.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            <state relative-caret-position="188">
+              <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/view/ContextThemeWrapper.java">
+        <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PMF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1919">
-              <caret line="128" column="50" selection-start-line="128" selection-start-column="50" selection-end-line="128" selection-end-column="50" />
+            <state relative-caret-position="145">
+              <caret line="82" column="35" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+              <folding>
+                <element signature="e#2100#2101#0" expanded="true" />
+                <element signature="e#2142#2143#0" expanded="true" />
+                <element signature="e#2210#2211#0" expanded="true" />
+                <element signature="e#2249#2250#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,10 +236,18 @@
       <find>getApplicationInfo</find>
       <find>createActivityContext</find>
       <find>createConfigurationContext</find>
+      <find>sPluginMgr</find>
+      <find>manifest</find>
+      <find>startService</find>
+      <find>mPlugins.put</find>
+      <find>getPackageArchiveInfo</find>
+      <find>asset</find>
+      <find>Thread</find>
+      <find>mDefaultPluginName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -206,9 +255,12 @@
         <option value="$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PluginContext.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/replugin-host-lib/build.gradle" />
         <option value="$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/RePluginEventCallbacks.java" />
         <option value="$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/i/Factory.java" />
+        <option value="$PROJECT_DIR$/rp-config.gradle" />
+        <option value="$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/Loader.java" />
+        <option value="$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PmBase.java" />
+        <option value="$PROJECT_DIR$/replugin-host-lib/build.gradle" />
       </list>
     </option>
   </component>
@@ -224,8 +276,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -276,13 +327,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qihoo360" type="462c0819:PsiDirectoryNode" />
-              <item name="i" type="462c0819:PsiDirectoryNode" />
+              <item name="mobilesafe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="replugin-host-library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="replugin-host-library" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="replugin-host-lib" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qihoo360" type="462c0819:PsiDirectoryNode" />
+              <item name="mobilesafe" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,6 +396,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="replugin-host-library:replugin-host-lib [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/replugin-host-lib" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="replugin-host-library:replugin-host-lib [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -373,6 +455,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.replugin-host-library:replugin-host-lib [build]" />
         <item itemvalue="Gradle.replugin-host-library:replugin-host-lib [uploadArchives]" />
         <item itemvalue="Gradle.replugin-host-library:replugin-host-lib [assemble]" />
         <item itemvalue="Gradle.replugin-host-library:replugin-host-lib [clean]" />
@@ -397,9 +480,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16487935" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.16957104" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -410,16 +494,16 @@
       <window_info anchor="bottom" id="TODO" order="1" />
       <window_info anchor="bottom" id="Terminal" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="4" visible="true" weight="0.29178885" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.49706745" />
+      <window_info anchor="bottom" id="Build" order="4" weight="0.29178885" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.20527859" />
       <window_info anchor="bottom" id="Logcat" order="6" />
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Debug" order="8" />
       <window_info anchor="bottom" id="Gradle View" order="9" />
       <window_info anchor="bottom" id="Find" order="10" />
-      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.8153242" side_tool="true" weight="0.28351206" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Gradle" order="2" visible="true" weight="0.1461126" />
+      <window_info anchor="right" id="Gradle" order="2" sideWeight="0.18467583" visible="true" weight="0.19571045" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
       <window_info anchor="right" id="Structure" order="5" weight="0.2533512" />
@@ -438,13 +522,6 @@
     <entry file="file://$PROJECT_DIR$/local.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3224">
-          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-84" />
@@ -461,50 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/RePlugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16397">
-          <caret line="963" column="29" selection-start-line="963" selection-start-column="29" selection-end-line="963" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#34647#0" expanded="true" />
-            <element signature="e#29988#29989#0" expanded="true" />
-            <element signature="e#30056#30057#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/RePluginApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PmBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3192">
-          <caret line="229" column="6" selection-start-line="229" selection-start-column="6" selection-end-line="229" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PMF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="65" column="30" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/data/res/values/themes.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="42" column="17" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/Plugin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="117" column="15" selection-start-line="117" selection-start-column="15" selection-end-line="117" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -578,23 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PluginContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/RePluginEventCallbacks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1330">
@@ -602,30 +622,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/replugin-host-lib/build.gradle">
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/i/Factory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="52" column="52" selection-start-line="52" selection-start-column="52" selection-end-line="52" selection-end-column="52" />
+        <state relative-caret-position="7296">
+          <caret line="428" selection-start-line="428" selection-end-line="428" />
           <folding>
-            <element signature="e#0#602#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/Loader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="167" column="25" selection-start-line="167" selection-start-column="25" selection-end-line="167" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/model/PluginInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11343">
-          <caret line="691" column="22" selection-start-line="691" selection-start-column="22" selection-end-line="691" selection-end-column="22" />
-          <folding>
-            <element signature="e#18329#18330#0" expanded="true" />
-            <element signature="e#18369#18370#0" expanded="true" />
+            <element signature="e#11482#11483#0" expanded="true" />
+            <element signature="e#11539#11540#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -651,13 +654,258 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/i/Factory.java">
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/java/util/concurrent/atomic/AtomicBoolean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="428" selection-start-line="428" selection-end-line="428" />
+        <state relative-caret-position="209">
+          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/RePluginInternal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding>
-            <element signature="e#11482#11483#0" expanded="true" />
-            <element signature="e#11539#11540#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/helper/HostConfigHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="181" column="23" selection-start-line="181" selection-start-column="23" selection-end-line="181" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PluginManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/RePluginCallbacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="176" column="16" selection-start-line="176" selection-start-column="16" selection-end-line="176" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/component/app/PluginApplicationClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1102">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/content/pm/PackageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/packages/PluginManagerProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="88" column="35" selection-start-line="88" selection-start-column="35" selection-end-line="88" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PmHostSvc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="458" column="19" selection-start-line="458" selection-start-column="19" selection-end-line="458" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PluginTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/component/utils/PluginClientHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="144" column="15" selection-start-line="144" selection-start-column="15" selection-end-line="144" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/component/service/PluginServiceClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="80" column="41" selection-start-line="80" selection-start-column="41" selection-end-line="80" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew.bat">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rp-config-key.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PluginContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="510" column="32" selection-start-line="510" selection-start-column="32" selection-end-line="510" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/model/PluginInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="113" column="35" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+          <folding>
+            <element signature="e#8868#8869#0" expanded="true" />
+            <element signature="e#8907#8908#0" expanded="true" />
+            <element signature="e#9049#9050#0" expanded="true" />
+            <element signature="e#9083#9084#0" expanded="true" />
+            <element signature="e#18329#18330#0" expanded="true" />
+            <element signature="e#18369#18370#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PluginCommImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="245" column="30" selection-start-line="245" selection-start-column="30" selection-end-line="245" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/Loader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="144" column="7" selection-start-line="144" selection-start-column="7" selection-end-line="144" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/Plugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="796" column="47" selection-start-line="796" selection-start-column="47" selection-end-line="796" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/MP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="205" column="35" selection-start-line="205" selection-start-column="35" selection-end-line="205" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PMF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="82" column="35" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+          <folding>
+            <element signature="e#2100#2101#0" expanded="true" />
+            <element signature="e#2142#2143#0" expanded="true" />
+            <element signature="e#2210#2211#0" expanded="true" />
+            <element signature="e#2249#2250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/RePlugin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="997" column="31" selection-start-line="997" selection-start-column="31" selection-end-line="997" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/RePluginApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="32" column="39" lean-forward="true" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/mobilesafe/api/Tasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+          <folding>
+            <element signature="e#2172#2173#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/mobilesafe/api/IPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/replugin/base/IPC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="129" column="37" selection-start-line="129" selection-start-column="26" selection-end-line="129" selection-end-column="37" />
+          <folding>
+            <element signature="e#3669#3670#0" expanded="true" />
+            <element signature="e#3712#3713#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/src/main/java/com/qihoo360/loader2/PmBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+          <folding>
+            <element signature="e#37241#37242#0" expanded="true" />
+            <element signature="e#37344#37345#0" expanded="true" />
+            <element signature="e#37432#37433#0" expanded="true" />
+            <element signature="e#38242#38243#0" expanded="true" />
+            <element signature="e#45073#45074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rp-publish.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1805">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="64" selection-start-line="39" selection-start-column="64" selection-end-line="39" selection-end-column="64" />
+          <folding>
+            <element signature="e#0#602#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rp-config.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/replugin-host-lib/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="47" column="14" lean-forward="true" selection-start-line="47" selection-start-column="14" selection-end-line="47" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#602#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -22,13 +22,18 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.ApplicationInfo;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.content.pm.ProviderInfo;
 import android.content.pm.ServiceInfo;
+import android.os.Environment;
 import android.os.IBinder;
 import android.os.Parcelable;
 import android.os.RemoteException;
 import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.qihoo360.i.Factory;
 import com.qihoo360.i.IModule;
@@ -44,6 +49,7 @@ import com.qihoo360.replugin.component.dummy.DummyActivity;
 import com.qihoo360.replugin.component.dummy.DummyProvider;
 import com.qihoo360.replugin.component.dummy.DummyService;
 import com.qihoo360.replugin.component.process.PluginProcessHost;
+import com.qihoo360.replugin.component.service.PluginServiceClient;
 import com.qihoo360.replugin.component.service.server.PluginPitService;
 import com.qihoo360.replugin.helper.HostConfigHelper;
 import com.qihoo360.replugin.helper.LogDebug;
@@ -52,16 +58,21 @@ import com.qihoo360.replugin.model.PluginInfo;
 import com.qihoo360.replugin.packages.PluginManagerProxy;
 import com.qihoo360.replugin.utils.ReflectUtils;
 
+import java.io.File;
 import java.io.FileDescriptor;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 import static com.qihoo360.replugin.helper.LogDebug.LOG;
 import static com.qihoo360.replugin.helper.LogDebug.PLUGIN_TAG;
+import static com.qihoo360.replugin.helper.LogDebug.i;
 import static com.qihoo360.replugin.helper.LogRelease.LOGR;
 import static com.qihoo360.replugin.packages.PluginInfoUpdater.ACTION_UNINSTALL_PLUGIN;
 
@@ -655,6 +666,47 @@ class PmBase {
             } catch (Exception e) {
                 if (LOGR) {
                     LogRelease.e(PLUGIN_TAG, "p m hlc a r e: " + e.getMessage(), e);
+                }
+            }
+        }
+
+        // 自动加载插件服务
+        Tasks.post2Thread(() -> {
+            if(IPC.isUIProcess()) {
+                runPluginAutoService();
+            }
+        });
+    }
+
+    /**
+     * 加载外部插件中的自启动服务
+     */
+    private void runPluginAutoService(){
+        PackageManager pm = mContext.getPackageManager();
+        Iterator<String> iterator = mPlugins.keySet().iterator();
+        while (iterator.hasNext()) {
+            String packageName = iterator.next();
+            if(!packageName.contains(".")) continue;
+
+            Plugin plugin = mPlugins.get(packageName);
+            String apkFile = plugin.mInfo.getApkFile().getAbsolutePath();
+
+            PackageInfo packageInfo = pm.getPackageArchiveInfo(apkFile,
+                    PackageManager.GET_SERVICES | PackageManager.GET_META_DATA);
+            if(packageInfo != null && packageInfo.services != null){
+                for(ServiceInfo service : packageInfo.services){
+                    if(service.metaData != null && service.metaData.getBoolean("autoRun")){
+                        try
+                        {
+                            Intent intent = RePlugin.createIntent(plugin.mInfo.getPackageName(), service.name);
+                            Tasks.post2UI(() -> {
+                                Log.i(TAG,"runPluginAutoService:"+intent.toString());
+                                PluginServiceClient.startService(mContext, intent, false);
+                            });
+                        }catch (Exception e){
+                            Log.e(TAG,e.toString());
+                        }
+                    }
                 }
             }
         }

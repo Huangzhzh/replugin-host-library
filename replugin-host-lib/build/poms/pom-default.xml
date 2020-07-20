@@ -4,6 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.qihoo360.replugin</groupId>
   <artifactId>replugin-host-lib</artifactId>
-  <version>2.3.3.2</version>
+  <version>2.3.3.3</version>
   <packaging>aar</packaging>
 </project>
