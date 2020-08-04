@@ -22,6 +22,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
@@ -682,6 +683,8 @@ class PmBase {
      * 加载外部插件中的自启动服务
      */
     private void runPluginAutoService(){
+        SharedPreferences autoRunPluginServices = mContext.getSharedPreferences("autoRunPluginServices",Context.MODE_PRIVATE);
+
         PackageManager pm = mContext.getPackageManager();
         Iterator<String> iterator = mPlugins.keySet().iterator();
         while (iterator.hasNext()) {
@@ -689,27 +692,58 @@ class PmBase {
             if(!packageName.contains(".")) continue;
 
             Plugin plugin = mPlugins.get(packageName);
-            String apkFile = plugin.mInfo.getApkFile().getAbsolutePath();
+            if(plugin.mInfo == null) continue;
 
-            PackageInfo packageInfo = pm.getPackageArchiveInfo(apkFile,
-                    PackageManager.GET_SERVICES | PackageManager.GET_META_DATA);
-            if(packageInfo != null && packageInfo.services != null){
-                for(ServiceInfo service : packageInfo.services){
-                    if(service.metaData != null && service.metaData.getBoolean("autoRun")){
-                        try
-                        {
-                            Intent intent = RePlugin.createIntent(plugin.mInfo.getPackageName(), service.name);
-                            Tasks.post2UI(() -> {
-                                Log.i(TAG,"runPluginAutoService:"+intent.toString());
-                                PluginServiceClient.startService(mContext, intent, false);
-                            });
-                        }catch (Exception e){
-                            Log.e(TAG,e.toString());
+            String apkFilePath = plugin.mInfo.getApkFile().getAbsolutePath();
+            int version = plugin.mInfo.getVersion();
+
+            File apkFile = new File(apkFilePath);
+            long fileSize = apkFile.length();
+            long lastModified = apkFile.lastModified();
+
+            String key = String.format("%s-%d-%d-%d-autoService",apkFilePath,version,fileSize,lastModified);
+            String value = autoRunPluginServices.getString(key,null);
+            if(value != null){
+                String[] services = value.split(";");
+                for(String service:services){
+                    if(!TextUtils.isEmpty(service)){
+                        startPluginAutoService(mContext,plugin.mInfo.getPackageName(),service);
+                    }
+                }
+            }else{
+                PackageInfo packageInfo = pm.getPackageArchiveInfo(apkFilePath,
+                        PackageManager.GET_SERVICES | PackageManager.GET_META_DATA);
+
+                value = "";
+                if (packageInfo != null && packageInfo.services != null){
+                    for (ServiceInfo service : packageInfo.services){
+                        if (service.metaData != null && service.metaData.getBoolean("autoRun")){
+                            startPluginAutoService(mContext,plugin.mInfo.getPackageName(),service.name);
+                            value += service.name + ";";
                         }
                     }
                 }
+                autoRunPluginServices.edit().putString(key,value).apply();
             }
         }
+    }
+
+    /**
+     * 启动插件中的自动服务
+     * @param context
+     * @param pluginPackageName
+     * @param serviceName
+     */
+    private void startPluginAutoService(Context context,String pluginPackageName,String serviceName){
+        Tasks.post2UI(() -> {
+            try{
+                Intent intent = RePlugin.createIntent(pluginPackageName, serviceName);
+                Log.i(TAG, "runPluginAutoService:" + intent.toString());
+                PluginServiceClient.startService(context, intent, false);
+            } catch (Exception e){
+                Log.e(TAG, e.toString());
+            }
+        });
     }
 
     /**
